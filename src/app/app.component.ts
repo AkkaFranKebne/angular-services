@@ -6,7 +6,7 @@ import {LoggingService} from "./logging.service";
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
-  providers: [AccountsService, LoggingService]
+  //providers: [AccountsService, LoggingService]
 })
 export class AppComponent implements OnInit {
   accounts: {name: string, status: string}[] = [];
