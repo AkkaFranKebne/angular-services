@@ -23,7 +23,7 @@ export class AccountsService {
 
   statusUpdate = new EventEmitter<string>();
 
-  constructor(private loggingService: LoggingService,
+  constructor(private loggingService: LoggingService
 
               ) {}
 
